@@ -41,7 +41,7 @@ export const Large: StoryObj<HeadingProps> = {
 export const CustomComponent: StoryObj<HeadingProps> = {
   args: {
     asChild: true,
-    children: <h1>That's a h1!</h1>,
+    children: <h1>That's an h1 element!</h1>,
   },
   argTypes: {
     children: {
